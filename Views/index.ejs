@@ -1,0 +1,20 @@
+<%- include('partials/header') %> <% blogs.forEach(blog => { %>
+<div class="ui index segment stackable grid">
+  <div class="four wide column">
+    <img
+      class="blogThumbnail"
+      src="<%= blog.image %>"
+      alt="<%= blog.title %>"
+    />
+  </div>
+  <div class="twelve wide column">
+    <a class="blogTitle h1" href="/blogs/<%= blog._id %>">
+      <h1><%= blog.title %></h1>
+    </a>
+    <p><%= blog.content.substring(0,80) %>. . .</p>
+    <a href="/blogs/<%= blog._id %>" class="ui secondary basic small button">
+      Read More</a
+    >
+  </div>
+</div>
+<% }) %> <%- include('partials/footer') %>

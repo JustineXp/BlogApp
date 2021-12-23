@@ -1,0 +1,22 @@
+<%- include('partials/header') %>
+<div class="ui s container">
+  <h1>Create a New Blog</h1>
+  <form action="/blogs" method="post">
+    <div class="ui form">
+      <div class="field">
+        <label>Title</label>
+        <input type="text" name="title" placeholder="Blog Title" />
+      </div>
+      <div class="field">
+        <label>Image</label>
+        <input type="text" name="image" placeholder="Blog Image" />
+      </div>
+
+      <div class="field">
+        <label>Blog Content</label>
+        <textarea rows="2" name="content"></textarea>
+      </div>
+      <button class="ui button" type="submit">Submit</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,48 @@
+.ui.inverted.segment {
+  border-radius: 0px;
+}
+
+.ui.index.segment {
+  margin: 10px 10px;
+}
+
+.formResize {
+  width: 50%;
+}
+
+.s.container {
+  margin: 20px auto;
+  width: 50%;
+}
+
+.show.container {
+  margin: 100px auto;
+}
+
+.showDetails {
+  padding: 10px;
+}
+
+.showimg {
+  width: 100%;
+}
+
+.blogThumbnail {
+  width: 300px;
+}
+
+.posted {
+  font-weight: 600;
+}
+
+.makeInline {
+  display: inline;
+}
+
+.mbottom {
+  margin-bottom: 5px;
+}
+
+.blogTitle h1 {
+  color: black;
+}
